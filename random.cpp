@@ -53,7 +53,7 @@ int Random1()
 {
 	int numRand;
 
-	/* generate number between 1 and 20: */
+	// generate number between 1 and 20: // 
 	numRand = rand() % 20 + 1;
 	return numRand;
 }
@@ -63,7 +63,7 @@ int Random2()
 {
 	int numRand;
 
-	/* generate number between 1 and 20: */
+	// generate number between 1 and 20: // 
 	numRand = rand() % 20 + 1;
 	return numRand;
 }
@@ -73,7 +73,7 @@ int Random3()
 {
 	int numRand;
 
-	/* generate number between 1 and 20: */
+	//  generate number between 1 and 20: // 
 	numRand = rand() % 20 + 1;
 	return numRand;
 }
@@ -83,16 +83,18 @@ int Random4()
 {
 	int numRand;
 
-	/* generate number between 1 and 20: */
+	// generate number between 1 and 20: // 
 	numRand = rand() % 20 + 1;
 	return numRand;
 }
 
 int main()
 {
-	/* initialize random seed: */
+	//  initialize random seed: // 
 	srand(time(NULL));
 	
+	
+	// display numbers one at a time //
 	cout << Random1() ;
 	Sleep(2000);
 	ClearScreen();
